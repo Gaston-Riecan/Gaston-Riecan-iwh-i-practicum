@@ -26,3 +26,7 @@ This project demonstrates the integration between a Node.js/Express application 
 2. Run `npm install` to install dependencies.
 3. Create a `.env` file and add your `REPLACE_WITH_ACCESS_TOKEN`.
 4. Run `npm start` to launch the local server.
+
+## Demo Video
+You can watch the functional demonstration of this project here: 
+[Loom Video](https://www.loom.com/share/a2d9f82fc0ed4c6c8bf8628043a995b2)
