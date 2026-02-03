@@ -30,3 +30,9 @@ This project demonstrates the integration between a Node.js/Express application 
 ## Demo Video
 You can watch the functional demonstration of this project here: 
 [Loom Video](https://www.loom.com/share/a2d9f82fc0ed4c6c8bf8628043a995b2)
+
+## Custom Object List View
+
+As required by the practicum instructions, here is the link to the list view of the custom object (Mascotas) created in my HubSpot developer test account:
+
+https://app.hubspot.com/contacts/51018016/objects/2-57046401/views/all/list
