@@ -1,0 +1,22 @@
+doctype html
+html 
+    head 
+        title= `${title}`
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body    
+        .form-wrapper
+            h1 Agregar/Actualizar Mascota
+            a(href="/") Volver al inicio
+            
+            form(method="POST")
+                label(for="newName") Nombre de la Mascota
+                input(type="text" name="newName" required)
+                
+                label(for="newEspecie") Especie
+                input(type="text" name="newEspecie" required)
+                
+                label(for="newEdad") Edad
+                input(type="number" name="newEdad" required)
+                
+                input(type="submit" value="Guardar Mascota")
