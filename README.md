@@ -1,28 +1,28 @@
-# Welcome to the Integrating With HubSpot I: Foundations Practicum
+# Integrating With HubSpot I: Foundations Practicum - Gaston
 
-This repository is for the Integrating With HubSpot I: Foundations course. This practicum is one of two requirements for receiving your Integrating With HubSpot I: Foundations certification. You must also take the exam and receive a passing grade (at least 75%).
+This repository is for the Integrating With HubSpot I: Foundations course practicum. 
 
-To read the full directions, please go to the [practicum instructions](https://app.hubspot.com/academy/l/tracks/1092124/1093824/5493?language=en).
+**Custom Objects URL:** https://app.hubspot.com/contacts/51018016/objects/2-57046401/views/all/list
 
-**Put your HubSpot developer test account custom objects URL link here:** https://app.hubspot.com/contacts/l/objects/${custom-obj-number}/views/all/list
+---
 
-___
-## Tips:
-- Commit to your repository often. Even if you make small tweaks to your code, it’s best to be committing to your repository frequently.
-- The subject of the custom object is up to you. Feel free to get creative!
-- Please create a test account and include your private app access token in your repo.
-- Ensure you re-merge any working branches into the main branch.
-- DO NOT ADD YOUR PRIVATE APP TOKEN TO YOUR REPOSITORY. 
+## Project Overview
+This project demonstrates the integration between a Node.js/Express application and HubSpot's CRM using Private Apps. It includes:
+* A custom object (Mascotas) with specific properties (Name, Especie, Edad).
+* Data retrieval via HubSpot's CRM API.
+* A front-end built with Pug templates and CSS.
 
-## Pre-requisites:
-- Using [Node](https://nodejs.org/en/download) and node packages
-- Using [Express](https://expressjs.com/en/starter/installing.html)
-- Using [Axios](https://axios-http.com/docs/intro)
-- Using [Pug templating system](https://pugjs.org/api/getting-started.html)
-- Using the command line
-- Using [Git and GitHub](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+## Requirements Checklist
+- [x] Create a developer test account.
+- [x] Create a Custom Object with at least 3 properties.
+- [x] Create at least 3 records of the custom object.
+- [x] Associate a custom object record with a contact.
+- [x] Link to the custom object in the README.
+- [ ] Create at least two new routes in the index.js file.
+- [ ] Create a new pug template for the homepage.
 
-## Requirements
-- All work must be your own. During the grading process we will check the revision history. Submissions that do not meet this requirement will not be considered.
-- You must have at least two new routes in your index.js file and one new pug template for the homepage.
-- You must create a developer test account and link to it in your README.md file. Submissions that do not meet this requirement will not be considered.
+## Setup Instructions
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Create a `.env` file and add your `REPLACE_WITH_ACCESS_TOKEN`.
+4. Run `npm start` to launch the local server.
